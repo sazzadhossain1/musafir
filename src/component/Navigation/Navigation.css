@@ -1,0 +1,257 @@
+.navigation_main_parent_div {
+}
+.navigation_second_parent_div {
+  background-color: rgb(3, 4, 5);
+  color: white;
+  padding: 7px 30px;
+}
+.navigation_parent_div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+}
+.navigation_email_div {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.icon_div {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.nav_envelope_icon {
+  font-size: 12px;
+  color: #3fd0d4;
+}
+.nav_phone_icon {
+  font-size: 12px;
+  color: #3fd0d4;
+}
+.nav_location_icon {
+  color: #3fd0d4;
+}
+small {
+  margin-left: 5px;
+}
+small:hover {
+  color: #3fd0d4;
+  cursor: pointer;
+}
+.navigation_login_signUp_div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav_btn {
+  border: 2px solid #3fd0d4;
+  font-size: 12px;
+  font-weight: 700;
+  width: 95px;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.nav_btn:hover {
+  background-color: #3fd0d4;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+/* ===================== */
+.nav_menu_main_parent_div {
+  background-color: white;
+  padding: 15px 10px;
+  /* position: fixed;
+  top: 0;
+  z-index: 1; */
+}
+.nav_menu_parent_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  /* background-color: red; */
+  padding: 0px 10px;
+}
+.musafir_title {
+  color: #f6bb17;
+  font-size: 30px;
+  font-weight: 500;
+}
+.menu_icons {
+  display: none;
+}
+.navigationLogo {
+  width: 22%;
+  padding: 6px;
+}
+
+.unOrderLink {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  margin-right: -50px;
+}
+
+.unOrderLink li {
+  font-size: 14px;
+  font-weight: 700;
+}
+.login {
+  display: none;
+}
+.signUP {
+  display: none;
+}
+.unOrderLink li:hover {
+  color: #f6bb17;
+}
+
+.shopping_icon {
+  margin-right: 10px;
+}
+.bars_icon {
+  margin-left: 10px;
+}
+
+.shopping_icon:hover {
+  color: #3fd0d4;
+}
+.bars_icon:hover {
+  color: #3fd0d4;
+}
+@media screen and (max-width: 1350px) {
+  .unOrderLink {
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .nav_menu_parent_div {
+    width: 90%;
+  }
+  .musafir_title {
+    font-size: 25px;
+  }
+  .unOrderLink {
+    gap: 25px;
+  }
+  .nav_menu_main_parent_div {
+    padding: 15px 0px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .nav_menu_parent_div {
+    width: 90%;
+  }
+  .musafir_title {
+    font-size: 22px;
+  }
+  .unOrderLink {
+    gap: 15px;
+  }
+  .nav_menu_main_parent_div {
+    padding: 15px 0px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .navigation_second_parent_div {
+  }
+  .nav_menu_main_parent_div {
+  }
+  .nav_menu_parent_div {
+    width: 100%;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 871px) {
+  .navigation_second_parent_div {
+    width: 100%;
+  }
+  .nav_menu_parent_div {
+    width: 90%;
+    padding: 10px;
+  }
+  .musafir_title {
+    font-size: 22px;
+  }
+  .unOrderLink {
+    gap: 15px;
+  }
+  .unOrderLink li {
+    font-size: 11px;
+  }
+  .nav_menu_main_parent_div {
+    padding: 15px 0px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .navigation_second_parent_div {
+    display: none;
+  }
+  .nav_menu_main_parent_div {
+    z-index: 99;
+  }
+
+  .unOrderLink {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 83px;
+    left: -60%;
+    align-items: stretch;
+    padding: 15px 25px;
+    transition: all 0.7s ease-in-out;
+    z-index: 1;
+    text-align: left;
+  }
+
+  .unOrderLink.active {
+    left: 0%;
+  }
+  .unOrderLink li {
+    color: white;
+    font-size: 15px;
+  }
+
+  .menu_icons {
+    display: block;
+  }
+  .login {
+    display: block;
+  }
+  .signUP {
+    display: block;
+  }
+  .shipping_and_bars_icon_div {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .unOrderLink {
+    top: 83px;
+  }
+}
+@media screen and (max-width: 747px) {
+  .unOrderLink {
+    top: 83px;
+  }
+}
+@media screen and (max-width: 709px) {
+  .unOrderLink {
+    top: 83px;
+  }
+}
+@media screen and (max-width: 240px) {
+  .unOrderLink {
+    top: 116px;
+  }
+}
