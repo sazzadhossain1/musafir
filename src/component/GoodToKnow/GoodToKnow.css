@@ -1,0 +1,29 @@
+.good_to_know_parent_div {
+  background-color: #3fd0d4;
+  text-align: left;
+  color: white;
+  padding: 20px 20px;
+  margin-top: 80px;
+}
+.good_to_know_parent_div p {
+  font-size: 14px;
+}
+.good_to_know_heading {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.read_the_basic {
+  margin-bottom: 30px;
+}
+.good_to_know_parent_flex_div {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.good_to_know_icon_flex_div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}

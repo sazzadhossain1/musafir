@@ -1,0 +1,26 @@
+.country_text {
+  font-size: 30px;
+  text-align: left;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.touristPlaces_parent_div {
+  width: 100%;
+  /* background-color: red; */
+}
+.touristPlacesPhoto_grid_div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 20px;
+}
+.touristPlacesPhoto {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 98%;
+}
+.tourist_text_p {
+  text-align: left;
+  color: #808080;
+  font-size: 14px;
+}

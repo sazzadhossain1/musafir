@@ -1,0 +1,22 @@
+.about_me_parent_div {
+  width: 100%;
+}
+.search_btn {
+  background-color: aqua;
+}
+.search_btn:hover {
+  background-color: rgb(74, 234, 220);
+}
+
+.aboutMe_heading {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 19px;
+  font-weight: 700;
+}
+.about_me_photo_text {
+  text-align: left;
+  margin-top: 10px;
+  font-size: 14px;
+}
