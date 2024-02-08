@@ -1,0 +1,38 @@
+.leave_a_reply_parent_div {
+  background-color: aqua;
+  margin-top: 50px;
+  text-align: left;
+  padding: 20px 25px;
+}
+.leave_a_reply_parent_div p {
+  color: white;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.leave_a_reply_heading {
+  font-size: 25px;
+  color: white;
+  font-weight: 500;
+}
+.textarea {
+  background-color: rgb(2, 240, 240);
+  width: 100%;
+  margin-top: 20px;
+}
+.leave_a_reply_input_flex_div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.leave_a_reply_input {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(2, 240, 240);
+  margin-top: 5px;
+}
+.send {
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}

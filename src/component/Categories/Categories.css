@@ -1,0 +1,15 @@
+.categories_parent_div {
+  text-align: left;
+  margin-top: 20px;
+}
+.categories_heading {
+  font-size: 20px;
+  font-weight: 500;
+}
+.categories_link_div {
+  margin-top: 10px;
+}
+.categories_link_div a {
+  font-size: 14px;
+  font-weight: 500;
+}

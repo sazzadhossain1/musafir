@@ -1,0 +1,27 @@
+.latest_post_parent_div {
+  text-align: left;
+}
+.latestPost_heading {
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.latest_post_flex_div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+.latestPostPhoto {
+  width: 30%;
+}
+.latest_post_cart_p {
+  font-size: 15px;
+  font-weight: 600;
+}
+.latest_post_cart_span {
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+}

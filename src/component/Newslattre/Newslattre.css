@@ -1,0 +1,28 @@
+.newslater_parent_div {
+  text-align: left;
+  background-color: aqua;
+  padding: 10px;
+  margin-top: 20px;
+}
+.newslatter_heading {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.if_you_have {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: rgb(114, 114, 114);
+}
+.newslatter_input {
+  padding: 10px;
+  width: 100%;
+  margin-top: 5px;
+  background-color: rgb(3, 219, 219);
+}
+.newslatter_subscribe_btn {
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}

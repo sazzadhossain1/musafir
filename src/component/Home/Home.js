@@ -5,6 +5,7 @@ import TouristPlaces from "../TouristPlaces/TouristPlaces";
 import RightSideContent from "../RightSideContent/RightSideContent";
 import GoodToKnow from "../GoodToKnow/GoodToKnow";
 import Municipalities from "../Municipalities/Municipalities";
+import LeaveAreply from "../LeaveAreply/LeaveAreply";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
           <TouristPlaces></TouristPlaces>
           <GoodToKnow></GoodToKnow>
           <Municipalities></Municipalities>
+          <LeaveAreply></LeaveAreply>
         </div>
         <div>
           <RightSideContent></RightSideContent>
