@@ -57,3 +57,19 @@
 .Aliquam_lorem {
   color: gray;
 }
+
+@media screen and (max-width: 1250px) {
+  .footer_parent_grid_div {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 950px) {
+  .footer_parent_grid_div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 650px) {
+  .footer_parent_grid_div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

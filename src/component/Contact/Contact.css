@@ -1,10 +1,58 @@
 .contact_grid_div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 80%;
-  gap: 20px;
+  width: 75%;
+  gap: 50px;
   margin: auto;
+  margin-top: 50px;
 }
 .contact_text_div {
   text-align: left;
+}
+.contact_title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.contact_p {
+  margin-bottom: 20px;
+}
+.contact_read_more_btn {
+  background-color: rgb(1, 196, 196);
+  padding: 10px;
+  color: white;
+  width: 200px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.contact_cart_grid_div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 75%;
+  gap: 50px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: left;
+  color: gray;
+}
+.contact_cart_grid_div h2 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: black;
+}
+.contact_cart_grid_div p {
+  margin-bottom: 20px;
+}
+.contact_icon_flex_div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.contact_leaveAreply_div {
+  width: 75%;
+  margin: auto;
 }

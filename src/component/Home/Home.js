@@ -12,7 +12,7 @@ const Home = () => {
     <div>
       <HeroSection></HeroSection>
 
-      <div className="home_flex_div">
+      {/* <div className="home_flex_div">
         <div>
           <TouristPlaces></TouristPlaces>
           <GoodToKnow></GoodToKnow>
@@ -22,7 +22,7 @@ const Home = () => {
         <div>
           <RightSideContent></RightSideContent>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

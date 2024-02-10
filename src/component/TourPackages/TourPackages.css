@@ -1,0 +1,61 @@
+.tourPackages_main_parent_div {
+}
+.tourPackages_parent_div {
+  background-image: url("../../accets//tourPackage/tourPackagePhoto.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 65vh;
+  /* position: absolute; */
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.tourPackages_parent_div h1 {
+  color: white;
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 180px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.tourPackage_greed_cart_div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 75%;
+  margin: auto;
+  margin-top: 100px;
+  gap: 30px;
+}
+.tourPackage_main_cart {
+  box-shadow: 5px 5px 20px 3px rgb(233, 232, 232);
+}
+.tourPackage_cart_flex_div {
+  display: flex;
+  background-color: rgb(1, 206, 206);
+  padding: 8px;
+  gap: 20px;
+  color: white;
+  font-size: 14px;
+}
+.tourPackage_cart_flex_div span {
+  margin-left: 10px;
+}
+.tourPackage_cart_body_part {
+  text-align: left;
+  padding: 20px;
+}
+.tourPackage_cart_body_part h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.tourPackage_cart_body_part p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.tourPackage_cart_footer_div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

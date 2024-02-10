@@ -1,0 +1,84 @@
+.tourPackageImg_parent_div {
+  background-color: rgb(231, 231, 231);
+  padding: 100px 0px;
+  margin-top: 100px;
+}
+.tourPackageImgCart_parent_grid_div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+  margin: auto;
+}
+.tourPackageImgCart_cart_div_one {
+  background: rgba(0, 0, 0, 0.4)
+    url("../../accets/tourPackageImg/tourPackageImgOne.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 60vh;
+  width: 90%;
+  margin: auto;
+  /* position: absolute; */
+}
+.tourPackageImgCart_cart_div_two {
+  background: rgba(0, 0, 0, 0.4)
+    url("../../accets/tourPackageImg/tourPackageImgTwo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 60vh;
+  width: 90%;
+  margin: auto;
+  /* position: absolute; */
+}
+.tourPackageImgCart_cart_div_three {
+  background: rgba(0, 0, 0, 0.4)
+    url("../../accets/tourPackageImg/tourPackageImgThree.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 60vh;
+  width: 90%;
+  margin: auto;
+  /* position: absolute; */
+}
+
+.tourPackageImgCart_cart_div_one h1 {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 350px;
+}
+.tourPackageImgCart_cart_div_one p {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.tourPackageImgCart_cart_div_two h1 {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 350px;
+}
+.tourPackageImgCart_cart_div_two p {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.tourPackageImgCart_cart_div_three h1 {
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 350px;
+}
+.tourPackageImgCart_cart_div_three p {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}

@@ -1,0 +1,51 @@
+.login_parent_div {
+  background-color: #eee;
+  padding: 10px;
+  margin-bottom: -100px;
+}
+.login_child_div {
+  background-color: rgb(0, 230, 230);
+  padding: 50px 20px;
+  width: 30%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: left;
+  color: white;
+  margin-bottom: 50px;
+}
+.signInHere {
+  font-size: 25px;
+  font-weight: 500;
+}
+.login_input_div {
+  margin-top: 20px;
+}
+.login_input_div input {
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: rgb(1, 220, 228);
+}
+.login_checkBox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.password_reset {
+  margin-top: 10px;
+  color: rgb(0, 138, 138);
+}
+.signIn_btn {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin-top: 20px;
+  width: 30%;
+  font-weight: 500;
+}
+.are_you {
+  margin-top: 10px;
+}
+.are_you a {
+  color: blue;
+}
