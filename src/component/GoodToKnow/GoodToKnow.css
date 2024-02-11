@@ -27,3 +27,13 @@
   align-items: center;
   gap: 15px;
 }
+
+@media screen and (max-width: 1000px) {
+  .good_to_know_parent_flex_div {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .good_to_know_last_P {
+    margin-left: 31px;
+  }
+}

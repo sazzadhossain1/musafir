@@ -23,42 +23,42 @@ const GoodToKnow = () => {
             <FontAwesomeIcon icon={faLocationDot} />
             <p>Country</p>
           </div>
-          <p>Not Needed For EU Citizens.</p>
+          <p className="good_to_know_last_P">Not Needed For EU Citizens.</p>
         </div>
         <div className="good_to_know_parent_flex_div">
           <div className="good_to_know_icon_flex_div">
             <FontAwesomeIcon icon={faFileLines} />
             <p>Visa Requirements</p>
           </div>
-          <p>taiwan</p>
+          <p className="good_to_know_last_P">taiwan</p>
         </div>
         <div className="good_to_know_parent_flex_div">
           <div className="good_to_know_icon_flex_div">
             <FontAwesomeIcon icon={faLocationDot} />
             <p>Country</p>
           </div>
-          <p>English</p>
+          <p className="good_to_know_last_P">English</p>
         </div>
         <div className="good_to_know_parent_flex_div">
           <div className="good_to_know_icon_flex_div">
             <FontAwesomeIcon icon={faComment} />
             <p>Languages spokem</p>
           </div>
-          <p>Euro</p>
+          <p className="good_to_know_last_P">Euro</p>
         </div>
         <div className="good_to_know_parent_flex_div">
           <div className="good_to_know_icon_flex_div">
             <FontAwesomeIcon icon={faWallet} />
             <p>Currency Used</p>
           </div>
-          <p>750.63 km2</p>
+          <p className="good_to_know_last_P">750.63 km2</p>
         </div>
         <div className="good_to_know_parent_flex_div">
           <div className="good_to_know_icon_flex_div">
             <FontAwesomeIcon icon={faClock} />
             <p>Area(km2)</p>
           </div>
-          <p>taiwan</p>
+          <p className="good_to_know_last_P">taiwan</p>
         </div>
       </div>
     </div>

@@ -113,11 +113,11 @@ const Navigation = () => {
               </Link>
             </li>
           </ul>
-          <div className="shipping_and_bars_icon_div">
+          {/* <div className="shipping_and_bars_icon_div">
             <FontAwesomeIcon className="shopping_icon" icon={faCartShopping} />
 
             <FontAwesomeIcon className="bars_icon" icon={faBars} />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

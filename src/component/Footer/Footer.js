@@ -68,7 +68,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <span className="footer_qode">@ 2024 qode interactice</span>
+      <span className="footer_qode">© 2024 qode interactice</span>
     </div>
   );
 };

@@ -24,3 +24,9 @@
   color: #808080;
   font-size: 14px;
 }
+
+@media screen and (max-width: 950px) {
+  .touristPlacesPhoto_grid_div {
+    grid-template-columns: 1fr;
+  }
+}

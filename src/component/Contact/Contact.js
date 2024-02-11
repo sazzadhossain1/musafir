@@ -93,10 +93,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      {/*  */}
-      <div className="contact_leaveAreply_div">
-        <LeaveAreply></LeaveAreply>
-      </div>
     </div>
   );
 };
