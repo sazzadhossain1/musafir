@@ -7,7 +7,6 @@ import {
   faLocationDot,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
-import LeaveAreply from "../LeaveAreply/LeaveAreply";
 
 const Contact = () => {
   return (
