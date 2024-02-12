@@ -82,3 +82,41 @@
   font-weight: 500;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 1536px) {
+  .tourPackageImgCart_parent_grid_div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .tourPackageImgCart_parent_grid_div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .tourPackageImgCart_cart_div_three {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .tourPackageImgCart_parent_grid_div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .tourPackageImgCart_cart_div_one h1 {
+    margin-top: 300px;
+  }
+  .tourPackageImgCart_cart_div_two {
+    margin-top: 50px;
+  }
+  .tourPackageImgCart_cart_div_two h1 {
+    margin-top: 300px;
+  }
+
+  .tourPackageImgCart_cart_div_three {
+    margin-top: 50px;
+  }
+  .tourPackageImgCart_cart_div_three h1 {
+    margin-top: 300px;
+  }
+}

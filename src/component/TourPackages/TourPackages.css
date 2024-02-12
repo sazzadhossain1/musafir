@@ -20,6 +20,7 @@
   font-size: 30px;
   font-weight: 600;
 }
+
 .tourPackage_greed_cart_div {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -58,4 +59,94 @@
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+@media screen and (max-width: 1650px) {
+  .tourPackages_parent_div h1 {
+    margin-left: 750px;
+  }
+}
+@media screen and (max-width: 1550px) {
+  .tourPackages_parent_div h1 {
+    margin-left: 700px;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .tourPackages_parent_div h1 {
+    margin-left: 600px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .tourPackages_parent_div h1 {
+    margin-left: 530px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .tourPackage_greed_cart_div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 1100px) {
+  .tourPackages_parent_div h1 {
+    margin-left: 450px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .tourPackages_parent_div h1 {
+    margin-left: 420px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .tourPackages_parent_div h1 {
+    margin-left: 380px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .tourPackages_parent_div h1 {
+    margin-left: 330px;
+  }
+  .tourPackage_greed_cart_div {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 700px) {
+  .tourPackages_parent_div h1 {
+    margin-left: 250px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .tourPackages_parent_div h1 {
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tourPackages_parent_div h1 {
+    margin-left: 150px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .tourPackages_parent_div h1 {
+    margin-left: 110px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .tourPackages_parent_div h1 {
+    margin-left: 100px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .tourPackages_parent_div h1 {
+    margin-left: 60px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .tourPackages_parent_div h1 {
+    margin-left: 50px;
+    font-size: 17px;
+  }
+
+  .tourPackage_greed_cart_div {
+  }
 }
