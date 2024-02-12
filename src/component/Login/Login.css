@@ -49,3 +49,19 @@
 .are_you a {
   color: blue;
 }
+
+@media screen and (max-width: 1350px) {
+  .login_child_div {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .login_child_div {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .login_child_div {
+    width: 100%;
+  }
+}
