@@ -1,0 +1,111 @@
+.hotels_parent_div {
+  background: url("../../accets/hotelsPhotos/hotelsBannerPhoto.jpg");
+  background-color: rgba(0, 0, 0, 0.404);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 65vh;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.hotels_parent_div h1 {
+  color: white;
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 180px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.hotels_cart_img {
+  height: 250px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1650px) {
+  .hotels_parent_div h1 {
+    margin-left: 750px;
+  }
+}
+@media screen and (max-width: 1550px) {
+  .hotels_parent_div h1 {
+    margin-left: 700px;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .hotels_parent_div h1 {
+    margin-left: 600px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .hotels_parent_div h1 {
+    margin-left: 530px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .tourPackage_greed_cart_div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 1100px) {
+  .hotels_parent_div h1 {
+    margin-left: 450px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .hotels_parent_div h1 {
+    margin-left: 420px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .hotels_parent_div h1 {
+    margin-left: 380px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .hotels_parent_div h1 {
+    margin-left: 330px;
+  }
+  .tourPackage_greed_cart_div {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 700px) {
+  .hotels_parent_div h1 {
+    margin-left: 250px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .hotels_parent_div h1 {
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hotels_parent_div h1 {
+    margin-left: 150px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hotels_parent_div h1 {
+    margin-left: 110px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .hotels_parent_div h1 {
+    margin-left: 100px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .hotels_parent_div h1 {
+    margin-left: 60px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .hotels_parent_div h1 {
+    margin-left: 50px;
+    font-size: 17px;
+  }
+}
