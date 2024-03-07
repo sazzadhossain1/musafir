@@ -13,18 +13,26 @@ const Footer = () => {
       <div className="footer_parent_grid_div">
         <div>
           <h2 className="musafir_title">Musafir Air Travels</h2>
-          <p className="footer_lorem">System</p>
+          <p className="footer_lorem">Address</p>
           <div className="footer_icon_flex_div">
             <FontAwesomeIcon icon={faEnvelope} />
-            <span>musafir@gmail.com</span>
+            <span>musafirairtravels1@gmail.com</span>
+          </div>
+          <div className="footer_icon_flex_div">
+            <FontAwesomeIcon icon={faEnvelope} />
+            <span>musafirairtravels@yahoo.com</span>
           </div>
           <div className="footer_icon_flex_div">
             <FontAwesomeIcon icon={faPhone} />
-            <span>01010101010</span>
+            <span>+880 1717-055-201</span>
           </div>
           <div className="footer_icon_flex_div">
             <FontAwesomeIcon icon={faLocationDot} />
-            <span>Musafir Air Travels</span>
+            <div>
+              <span>House # 83/2-A (2nd Floor)</span>
+              <span>Matikata Main Road</span>
+              <span>Dhaka Cant, Dhaka-1206</span>
+            </div>
           </div>
         </div>
 
@@ -46,7 +54,7 @@ const Footer = () => {
             <small>september 7, 2024</small>
           </div>
         </div>
-        <div>
+        {/* <div>
           <h3 className="footer_subscribe_to">Subscribe to our Newsletter</h3>
           <p>Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho</p>
           <input className="footer_input_name" type="name" placeholder="Name" />
@@ -57,7 +65,7 @@ const Footer = () => {
           />
           <br />
           <button className="footer_subscribe_btn">Subscribe</button>
-        </div>
+        </div> */}
         <div>
           <h3 className="ourInstagram">Our Instagram</h3>
           <p className="Aliquam_lorem">
@@ -66,7 +74,9 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <span className="footer_qode">© 2024 qode interactice</span>
+      <span className="footer_qode">
+        Musafir Air Travels © All rights reserved 2024
+      </span>
     </div>
   );
 };
