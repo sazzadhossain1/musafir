@@ -4,18 +4,12 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBars,
-  faCartShopping,
   faLocationDot,
   faPhoneFlip,
-  faShoppingBag,
   faTimes,
 } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import {
-  faFacebookF,
-  faInstagram,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const Navigation = () => {
   let [state, setState] = useState({ clicked: false });
@@ -34,12 +28,12 @@ const Navigation = () => {
                 className="nav_envelope_icon"
                 icon={faEnvelope}
               />
-              <small className="hover">info@Musafirairtravels.com</small>
+              <small className="hover"> musafirairtravels1@gmail.com</small>
             </div>
 
             <div className="icon_div">
               <FontAwesomeIcon className="nav_phone_icon" icon={faPhoneFlip} />
-              <small className="hover">000-000-0000</small>
+              <small className="hover">+880 1717-055-201</small>
             </div>
             <div className="icon_div">
               <FontAwesomeIcon
@@ -53,9 +47,8 @@ const Navigation = () => {
           <div className="navigation_login_signUp_div">
             <FontAwesomeIcon icon={faFacebookF} />
             <FontAwesomeIcon icon={faInstagram} />
-            <FontAwesomeIcon icon={faTwitter} />
 
-            <Link to="/login">
+            {/* <Link to="/login">
               <button className="nav_btn">
                 <Link to="/login">Login</Link>
               </button>
@@ -63,7 +56,7 @@ const Navigation = () => {
 
             <Link to="/signUp">
               <button className="nav_btn">Sign up</button>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>
@@ -102,7 +95,7 @@ const Navigation = () => {
             <li>
               <Link to="/contact">Contact</Link>
             </li>
-            <li>
+            {/* <li>
               <Link className="login" to="/login">
                 Login
               </Link>
@@ -111,7 +104,7 @@ const Navigation = () => {
               <Link className="signUP" to="/signUp">
                 Sign up
               </Link>
-            </li>
+            </li> */}
           </ul>
           {/* <div className="shipping_and_bars_icon_div">
             <FontAwesomeIcon className="shopping_icon" icon={faCartShopping} />

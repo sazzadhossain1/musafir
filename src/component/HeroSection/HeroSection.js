@@ -8,10 +8,23 @@ const HeroSection = () => {
       {/* <img src={heroPhoto} alt="" /> */}
       <div className="hero_text_div">
         <p className="destination">Destinations</p>
-        <h1 className="italy">Italy</h1>
+        <h1 className="italy">Go where you want to go.</h1>
       </div>
     </div>
   );
 };
 
 export default HeroSection;
+/**
+ * We work hard to make your flight pleasant.
+ * Great service. Great value. Great flying.
+ * Welcome Aboard
+ * Feel the miles.
+ * We make flying pleasurable.
+ * Travel made simple
+ * Have a good flight!
+ * We're here for you.
+ * Go where you want to go.
+
+
+ */

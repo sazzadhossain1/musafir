@@ -13,9 +13,7 @@ const Footer = () => {
       <div className="footer_parent_grid_div">
         <div>
           <h2 className="musafir_title">Musafir Air Travels</h2>
-          <p className="footer_lorem">
-            Lorem ipsum dolor sit ametco nsec te tuer adipiscing elitae
-          </p>
+          <p className="footer_lorem">System</p>
           <div className="footer_icon_flex_div">
             <FontAwesomeIcon icon={faEnvelope} />
             <span>musafir@gmail.com</span>

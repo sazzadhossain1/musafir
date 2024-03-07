@@ -8,7 +8,7 @@
 .navigation_parent_div {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 95%;
   margin: auto;
 }
 .navigation_email_div {
