@@ -1,0 +1,101 @@
+.carRental_parent_div {
+  background: url("../../accets/carRental/carRentalBanner/carRentalBanner.jpg");
+  background-color: rgba(0, 0, 0, 0.404);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 65vh;
+  width: 100%;
+  background-attachment: fixed;
+}
+.carRental_parent_div h1 {
+  color: white;
+  position: absolute;
+  margin-left: 805px;
+  margin-top: 200px;
+  font-size: 30px;
+  font-weight: 600;
+}
+@media screen and (max-width: 1650px) {
+  .carRental_parent_div h1 {
+    margin-left: 750px;
+  }
+}
+@media screen and (max-width: 1550px) {
+  .carRental_parent_div h1 {
+    margin-left: 700px;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .carRental_parent_div h1 {
+    margin-left: 600px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .carRental_parent_div h1 {
+    margin-left: 530px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .carRental_parent_div h1 {
+    margin-left: 450px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .carRental_parent_div h1 {
+    margin-left: 420px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .carRental_parent_div h1 {
+    margin-left: 380px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .carRental_parent_div h1 {
+    margin-left: 330px;
+  }
+  .tourPackage_greed_cart_div {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 700px) {
+  .carRental_parent_div h1 {
+    margin-left: 250px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .carRental_parent_div h1 {
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .carRental_parent_div h1 {
+    margin-left: 150px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .carRental_parent_div h1 {
+    margin-left: 110px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .carRental_parent_div h1 {
+    margin-left: 100px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .carRental_parent_div h1 {
+    margin-left: 60px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .carRental_parent_div h1 {
+    margin-left: 50px;
+    font-size: 17px;
+  }
+}

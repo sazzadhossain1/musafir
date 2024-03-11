@@ -1,0 +1,20 @@
+.hajjUmrah_parent_div {
+  background: url("../../accets/hajjUmrah/hajjUmrahBanner.jpg");
+  background-color: rgba(0, 0, 0, 0.404);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 65vh;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.hajjUmrah_parent_div h1 {
+  color: white;
+  position: absolute;
+  margin-left: 785px;
+  margin-top: 200px;
+  font-size: 30px;
+  font-weight: 600;
+}
