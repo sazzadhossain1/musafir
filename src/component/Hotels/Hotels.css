@@ -13,10 +13,44 @@
 .hotels_parent_div h1 {
   color: white;
   position: absolute;
-  margin-left: 800px;
-  margin-top: 180px;
+  margin-left: 850px;
+  margin-top: 200px;
   font-size: 30px;
   font-weight: 600;
+}
+.welcome_to_musafir {
+  width: 76%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+.hotels_text_img_grid_div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 75%;
+  gap: 50px;
+  margin: auto;
+}
+.hotels_text_div {
+  text-align: left;
+}
+
+.hotels_text_p {
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+.at_musafir_text-div {
+  text-align: left;
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+}
+.hotels_text_lst_p {
+  line-height: 30px;
+  margin-top: 0;
 }
 .hotels_cart_img {
   height: 250px;

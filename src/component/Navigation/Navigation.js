@@ -35,13 +35,13 @@ const Navigation = () => {
               <FontAwesomeIcon className="nav_phone_icon" icon={faPhoneFlip} />
               <small className="hover">+880 1717-055-201</small>
             </div>
-            <div className="icon_div">
+            {/* <div className="icon_div">
               <FontAwesomeIcon
                 className="nav_location_icon"
                 icon={faLocationDot}
               />
               <small className="hover">Location-Address</small>
-            </div>
+            </div> */}
           </div>
 
           <div className="navigation_login_signUp_div">

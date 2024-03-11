@@ -6,6 +6,7 @@ import {
   faLocationDot,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
+import musafirAirTravelLogo from "../../accets/MusafirAirTravelsLogo.png";
 
 const Footer = () => {
   return (
@@ -13,6 +14,11 @@ const Footer = () => {
       <div className="footer_parent_grid_div">
         <div>
           <h2 className="musafir_title">Musafir Air Travels</h2>
+          {/* <img
+            className="musafirAirTravelLogo"
+            src={musafirAirTravelLogo}
+            alt=""
+          /> */}
           <p className="footer_lorem">Address</p>
           <div className="footer_icon_flex_div">
             <FontAwesomeIcon icon={faEnvelope} />
@@ -67,7 +73,7 @@ const Footer = () => {
           <button className="footer_subscribe_btn">Subscribe</button>
         </div> */}
         <div>
-          <h3 className="ourInstagram">Our Instagram</h3>
+          <h3 className="ourInstagram">Social Handles</h3>
           <p className="Aliquam_lorem">
             Aliquam lorem ante, dapibus inviver raqui feugiat a, tellus.
             Phasellus null

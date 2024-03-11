@@ -1,0 +1,133 @@
+.airTicket_parent_div {
+  background: url("../../accets/airTicketsPhoto/airBannreHoto/airBannrePhoto.jpg");
+  background-color: rgba(0, 0, 0, 0.404);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 65vh;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.airTicket_parent_div h1 {
+  color: white;
+  position: absolute;
+  margin-left: 810px;
+  margin-top: 200px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.welcome_to_airTicket {
+  width: 85%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.airTicket_text_img_grid_div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 85%;
+  gap: 50px;
+  margin: auto;
+}
+
+.airTicket_text_div {
+  text-align: left;
+}
+
+.airTicket_text_p {
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+
+.Discover_text-div {
+  text-align: left;
+  width: 85%;
+  margin: auto;
+  margin-top: 50px;
+}
+@media screen and (max-width: 1650px) {
+  .airTicket_parent_div h1 {
+    margin-left: 750px;
+  }
+}
+@media screen and (max-width: 1550px) {
+  .airTicket_parent_div h1 {
+    margin-left: 700px;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .airTicket_parent_div h1 {
+    margin-left: 600px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .airTicket_parent_div h1 {
+    margin-left: 530px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .airTicket_parent_div h1 {
+    margin-left: 450px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .airTicket_parent_div h1 {
+    margin-left: 420px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .airTicket_parent_div h1 {
+    margin-left: 380px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .airTicket_parent_div h1 {
+    margin-left: 330px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .airTicket_parent_div h1 {
+    margin-left: 250px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .airTicket_parent_div h1 {
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .airTicket_parent_div h1 {
+    margin-left: 150px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .airTicket_parent_div h1 {
+    margin-left: 110px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .airTicket_parent_div h1 {
+    margin-left: 100px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .airTicket_parent_div h1 {
+    margin-left: 60px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 250px) {
+  .airTicket_parent_div h1 {
+    margin-left: 50px;
+    font-size: 17px;
+  }
+}

@@ -17,11 +17,9 @@ const Home = () => {
           <TouristPlaces></TouristPlaces>
           <GoodToKnow></GoodToKnow>
           <Municipalities></Municipalities>
-          <LeaveAreply></LeaveAreply>
+          {/* <LeaveAreply></LeaveAreply> */}
         </div>
-        <div>
-          <RightSideContent></RightSideContent>
-        </div>
+        <div>{/* <RightSideContent></RightSideContent> */}</div>
       </div>
     </div>
   );
