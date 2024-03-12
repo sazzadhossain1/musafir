@@ -33,6 +33,9 @@
   font-size: 20px;
   margin-bottom: 32px;
 }
+.footer_navigation_menu {
+  line-height: 30px;
+}
 .footer_subscribe_to {
   font-size: 22px;
   margin-bottom: 32px;
@@ -61,7 +64,14 @@
 .Aliquam_lorem {
   color: gray;
 }
+.social_media {
+  font-size: 20px;
+}
 
+.social_media_instagram {
+  font-size: 22px;
+  margin-left: 20px;
+}
 @media screen and (max-width: 1250px) {
   .footer_parent_grid_div {
     grid-template-columns: repeat(3, 1fr);

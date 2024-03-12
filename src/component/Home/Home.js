@@ -15,7 +15,7 @@ const Home = () => {
       <div className="home_flex_div">
         <div>
           <TouristPlaces></TouristPlaces>
-          <GoodToKnow></GoodToKnow>
+          {/* <GoodToKnow></GoodToKnow> */}
           <Municipalities></Municipalities>
           {/* <LeaveAreply></LeaveAreply> */}
         </div>

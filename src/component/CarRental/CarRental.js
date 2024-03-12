@@ -6,7 +6,7 @@ const CarRental = () => {
   return (
     <div>
       <div className="carRental_parent_div">
-        <h1>Car Rental</h1>
+        <h1>Visa Service</h1>
       </div>
 
       <div>

@@ -9,7 +9,7 @@ import MunicipalitiesPhotoFive from "../../accets/municipalities/MunicipalitiesP
 const Municipalities = () => {
   return (
     <div className="Municipalities_parent_div">
-      <h1 className="Municipalities_heading">Municipalities</h1>
+      {/* <h1 className="Municipalities_heading">Municipalities</h1> */}
       <p>
         Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
         Phasellus viverra nulla ut met us varius laoreet. Quisque rutrum. Aenean

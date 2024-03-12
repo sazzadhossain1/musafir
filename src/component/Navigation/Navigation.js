@@ -87,13 +87,13 @@ const Navigation = () => {
               <Link to="/tourpackages">Tour Packages</Link>
             </li>
             <li>
-              <Link to="/carrental">Car Rental</Link>
+              <Link to="/visaService">Visa Service</Link>
             </li>
             <li>
               <Link to="/hajjUmrah">Hajj/Umrah</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="">Contact</Link>
             </li>
             {/* <li>
               <Link className="login" to="/login">

@@ -7,6 +7,8 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import musafirAirTravelLogo from "../../accets/MusafirAirTravelsLogo.png";
+import { Link } from "react-router-dom";
+import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -43,21 +45,27 @@ const Footer = () => {
         </div>
 
         <div>
-          <h3 className="our_recent_posts">Our Recent Posts</h3>
-          <div>
-            <small> Lorem ipsum dolor sit amet.</small>
+          <h3 className="our_recent_posts">SiteMap</h3>
+          <div className="footer_navigation_menue_div">
+            <Link to="/airTickets" className="footer_navigation_menu">
+              Air Tickets
+            </Link>
             <br />
-            <small>september 7, 2024</small>
-          </div>
-          <div>
-            <small> Lorem ipsum dolor sit amet.</small>
+            <Link to="/hotels" className="footer_navigation_menu">
+              Hotels
+            </Link>
             <br />
-            <small>september 7, 2024</small>
-          </div>
-          <div>
-            <small> Lorem ipsum dolor sit amet.</small>
+            <Link to="/tourPackages" className="footer_navigation_menu">
+              Tour Packages
+            </Link>
             <br />
-            <small>september 7, 2024</small>
+            <Link to="/visaService" className="footer_navigation_menu">
+              Visa Service
+            </Link>
+            <br />
+            <Link to="/hajjUmrah" className="footer_navigation_menu">
+              Hajj/Umrah
+            </Link>
           </div>
         </div>
         {/* <div>
@@ -74,10 +82,13 @@ const Footer = () => {
         </div> */}
         <div>
           <h3 className="ourInstagram">Social Handles</h3>
-          <p className="Aliquam_lorem">
-            Aliquam lorem ante, dapibus inviver raqui feugiat a, tellus.
-            Phasellus null
-          </p>
+          <div className="Aliquam_lorem">
+            <FontAwesomeIcon className="social_media" icon={faFacebook} />
+            <FontAwesomeIcon
+              className="social_media_instagram"
+              icon={faInstagram}
+            />
+          </div>
         </div>
       </div>
       <span className="footer_qode">

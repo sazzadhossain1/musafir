@@ -11,7 +11,7 @@
 }
 .hero_text_div {
   position: absolute;
-  margin-left: 570px;
+  margin-left: 250px;
   margin-top: 150px;
 }
 .destination {
@@ -29,42 +29,70 @@
 
 @media screen and (max-width: 1650px) {
   .hero_text_div {
-    margin-left: 510px;
+    margin-left: 220px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .hero_text_div {
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .hero_text_div {
+    margin-left: 187px;
   }
 }
 @media screen and (max-width: 1550px) {
   .hero_text_div {
-    margin-left: 470px;
+    margin-left: 175px;
   }
 }
 @media screen and (max-width: 1450px) {
   .hero_text_div {
-    margin-left: 400px;
+    margin-left: 130px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .hero_text_div {
+    margin-left: 110px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .hero_text_div {
+    margin-left: 70px;
   }
 }
 @media screen and (max-width: 1300px) {
   .hero_text_div {
-    margin-left: 320px;
+    margin-left: 40px;
   }
 }
 @media screen and (max-width: 1200px) {
   .hero_text_div {
-    margin-left: 280px;
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 1080px) {
   .hero_text_div {
-    margin-left: 240px;
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 1050px) {
   .hero_text_div {
-    margin-left: 210px;
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 1024px) and (max-height: 1366px) {
   .hero_section_parent_div {
     height: 35vh;
+  }
+}
+@media screen and (max-width: 1024px) and (max-height: 707px) {
+  .hero_section_parent_div {
+    height: 50vh;
+  }
+  .hero_text_div {
+    margin-top: 50px;
   }
 }
 @media screen and (max-width: 1024px) and (max-height: 600px) {
@@ -77,12 +105,12 @@
 }
 @media screen and (max-width: 1000px) {
   .hero_text_div {
-    margin-left: 190px;
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 950px) {
   .hero_text_div {
-    margin-left: 200px;
+    margin-left: 0px;
   }
   .italy {
     font-size: 45px;
@@ -95,7 +123,7 @@
 }
 @media screen and (max-width: 870px) {
   .hero_text_div {
-    margin-left: 195px;
+    margin-left: 0px;
   }
   .italy {
     font-size: 40px;
@@ -109,9 +137,17 @@
     font-size: 40px;
   }
 }
+@media screen and (max-width: 853px) and (max-height: 707px) {
+  .hero_text_div {
+    margin-left: 0px;
+  }
+  .italy {
+    font-size: 40px;
+  }
+}
 @media screen and (max-width: 830px) and (max-height: 707px) {
   .hero_text_div {
-    margin-left: 180px;
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 800px) and (max-height: 1280px) {
@@ -121,17 +157,17 @@
 }
 @media screen and (max-width: 800px) and (max-height: 707px) {
   .hero_text_div {
-    margin-left: 165px;
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 750px) {
   .hero_text_div {
-    margin-left: 140px;
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 700px) {
   .hero_text_div {
-    margin-left: 135px;
+    margin-left: 0px;
   }
   .italy {
     font-size: 35px;
@@ -139,7 +175,7 @@
 }
 @media screen and (max-width: 650px) {
   .hero_text_div {
-    margin-left: 115px;
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 640px) and (max-height: 360px) {
@@ -154,7 +190,7 @@
 }
 @media screen and (max-width: 620px) {
   .hero_text_div {
-    margin-left: 125px;
+    margin-left: 0px;
   }
   .italy {
     font-size: 30px;
@@ -162,12 +198,12 @@
 }
 @media screen and (max-width: 570px) {
   .hero_text_div {
-    margin-left: 110px;
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 550px) {
   .hero_text_div {
-    margin-left: 100px;
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 540px) and (max-height: 720px) {
@@ -177,7 +213,7 @@
 }
 @media screen and (max-width: 530px) {
   .hero_text_div {
-    margin-left: 115px;
+    margin-left: 0px;
   }
   .italy {
     font-size: 25px;
@@ -185,17 +221,17 @@
 }
 @media screen and (max-width: 500px) {
   .hero_text_div {
-    margin-left: 95px;
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 450px) {
   .hero_text_div {
-    margin-left: 75px;
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 430px) {
   .hero_text_div {
-    margin-left: 65px;
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 414px) and (max-height: 736px) {

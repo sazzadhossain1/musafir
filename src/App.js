@@ -38,7 +38,7 @@ function App() {
           element: <TourPackages></TourPackages>,
         },
         {
-          path: "/carRental",
+          path: "/visaService",
           element: <CarRental></CarRental>,
         },
         {
