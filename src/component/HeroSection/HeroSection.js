@@ -17,7 +17,7 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-/**
+/*
  * We work hard to make your flight pleasant.
  * Great service. Great value. Great flying.
  * Welcome Aboard
@@ -27,6 +27,4 @@ export default HeroSection;
  * Have a good flight!
  * We're here for you.
  * Go where you want to go.
-
-
  */
