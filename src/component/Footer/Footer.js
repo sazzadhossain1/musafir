@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div>
+        <div className="footer_siteMap_parent_div">
           <h3 className="our_recent_posts">SiteMap</h3>
           <div className="footer_navigation_menue_div">
             <Link to="/airTickets" className="footer_navigation_menu">

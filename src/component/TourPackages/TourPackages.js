@@ -1,5 +1,6 @@
 import React from "react";
 import "./TourPackages.css";
+
 import tourPackageCartPhotoOne from "../../accets/touristPlacePhoto/tourPackageCartPhoto/tourPackageCartPhotoOne.jpg";
 import tourPackageCartPhotoTwo from "../../accets/touristPlacePhoto/tourPackageCartPhoto/tourPackageCartPhotoTwo.jpg";
 import tourPackageCartPhotoThree from "../../accets/touristPlacePhoto/tourPackageCartPhoto/tourPackageCartPhotoThree.jpg";
@@ -13,6 +14,11 @@ import {
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import TourPackageImgCart from "../TourPackageImgCart/TourPackageImgCart";
+
+import tourPackagePhotoOne from "../../accets/tourPackage/tourPackagePhotoOne.png";
+import tourPackagePhotoTwo from "../../accets/tourPackage/tourPackagePhotoTwo.png";
+import tourPackagePhotoThree from "../../accets/tourPackage/tourPackagePhotoThree.png";
+import tourPackagePhotoFour from "../../accets/tourPackage/tourPackagePhotoFour.png";
 
 const TourPackages = () => {
   return (
@@ -53,7 +59,11 @@ const TourPackages = () => {
             </p>
           </div>
           <div>
-            <img className="hotelsBannerPhoto" src={hotelsBannerPhoto} alt="" />
+            <img
+              className="hotelsBannerPhoto"
+              src={tourPackagePhotoOne}
+              alt=""
+            />
           </div>
         </div>
         <div className="at_musafir_text-div">
@@ -73,7 +83,7 @@ const TourPackages = () => {
       </div>
       <div className="tourPackage_greed_cart_div">
         <div className="tourPackage_main_cart">
-          <img src={tourPackageCartPhotoOne} alt="" />
+          <img src={tourPackagePhotoTwo} alt="" />
           <div className="tourPackage_cart_flex_div">
             <div>
               <FontAwesomeIcon icon={faBagShopping} />
@@ -106,7 +116,7 @@ const TourPackages = () => {
           </div>
         </div>
         <div className="tourPackage_main_cart">
-          <img src={tourPackageCartPhotoTwo} alt="" />
+          <img src={tourPackagePhotoThree} alt="" />
           <div className="tourPackage_cart_flex_div">
             <div>
               <FontAwesomeIcon icon={faBagShopping} />
@@ -139,7 +149,7 @@ const TourPackages = () => {
           </div>
         </div>
         <div className="tourPackage_main_cart">
-          <img src={tourPackageCartPhotoThree} alt="" />
+          <img src={tourPackagePhotoFour} alt="" />
           <div className="tourPackage_cart_flex_div">
             <div>
               <FontAwesomeIcon icon={faBagShopping} />
