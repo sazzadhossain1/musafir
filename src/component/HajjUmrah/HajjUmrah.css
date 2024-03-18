@@ -1,5 +1,5 @@
 .hajjUmrah_parent_div {
-  background: url("../../accets/hajjUmrah/hajjUmrahBanner.jpg");
+  background: url("../../accets/hajjUmrah/hajjUmrahHeroBanner.png");
   background-color: rgba(0, 0, 0, 0.404);
   background-repeat: no-repeat;
   background-position: center;
@@ -17,4 +17,100 @@
   margin-top: 200px;
   font-size: 30px;
   font-weight: 600;
+}
+
+@media screen and (max-width: 1600px) {
+  .hajjUmrah_parent_div h1 {
+    margin-left: 700px;
+  }
+}
+@media screen and (max-width: 1520px) {
+  .hajjUmrah_parent_div h1 {
+    margin-left: 650px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .hajjUmrah_parent_div h1 {
+    margin-left: 600px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .hajjUmrah_parent_div h1 {
+    margin-left: 550px;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .hajjUmrah_parent_div h1 {
+    margin-left: 500px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .hajjUmrah_parent_div h1 {
+    margin-left: 450px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .hajjUmrah_parent_div h1 {
+    margin-left: 420px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .hajjUmrah_parent_div h1 {
+    margin-left: 380px;
+  }
+}
+@media screen and (max-width: 870px) {
+  .hajjUmrah_parent_div h1 {
+    margin-left: 340px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .hajjUmrah_parent_div h1 {
+    margin-left: 300px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .hajjUmrah_parent_div h1 {
+    margin-left: 270px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .hajjUmrah_parent_div h1 {
+    margin-left: 230px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .hajjUmrah_parent_div h1 {
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .hajjUmrah_parent_div h1 {
+    margin-left: 150px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hajjUmrah_parent_div h1 {
+    margin-left: 130px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .hajjUmrah_parent_div h1 {
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .hajjUmrah_parent_div h1 {
+    margin-left: 70px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .hajjUmrah_parent_div h1 {
+    margin-left: 60px;
+  }
+}
+@media screen and (max-width: 270px) {
+  .hajjUmrah_parent_div h1 {
+    margin-left: 45px;
+  }
 }

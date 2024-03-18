@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hotels.css";
-import hotelsBannerPhoto from "../../accets/hotelsPhotos/hotelsBannerPhoto.jpg";
+import HotelsWelcomePhoto from "../../accets/hotelsPhotos/HotelsWelcomePhoto.png";
 import hotelsCartPhotoOne from "../../accets/hotelsPhotos/New folder/hotelsCartPhotoOne.jpg";
 import hotelsCartPhotoTwo from "../../accets/hotelsPhotos/New folder/hotelsCartPhotoTwo.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -50,7 +50,11 @@ const Hotels = () => {
             </p>
           </div>
           <div>
-            <img className="hotelsBannerPhoto" src={hotelsBannerPhoto} alt="" />
+            <img
+              className="hotelsBannerPhoto"
+              src={HotelsWelcomePhoto}
+              alt=""
+            />
           </div>
         </div>
         <div className="at_musafir_text-div">
@@ -65,7 +69,7 @@ const Hotels = () => {
 
       <div className="tourPackage_greed_cart_div">
         <div className="tourPackage_main_cart">
-          <img className="hotels_cart_img" src={hotelsBannerPhoto} alt="" />
+          <img className="hotels_cart_img" src={HotelsWelcomePhoto} alt="" />
           <div className="tourPackage_cart_flex_div">
             <div>
               <FontAwesomeIcon icon={faBagShopping} />

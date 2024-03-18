@@ -1,6 +1,6 @@
 import React from "react";
 import "./AirTickets.css";
-import airBannerPhoto from "../../accets/airTicketsPhoto/airBannreHoto/airBannrePhoto.jpg";
+import airBannerPhoto from "../../accets/airTicketsPhoto/airBannreHoto/sssss.jpg";
 
 const AirTickets = () => {
   return (

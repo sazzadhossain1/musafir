@@ -1,5 +1,5 @@
 .airTicket_parent_div {
-  background: url("../../accets/airTicketsPhoto/airBannreHoto/airBannrePhoto.jpg");
+  background: url("../../accets/airTicketsPhoto/airBannreHoto/airBannrePhoto.png");
   background-color: rgba(0, 0, 0, 0.404);
   background-repeat: no-repeat;
   background-position: center;
@@ -65,6 +65,11 @@
 @media screen and (max-width: 1450px) {
   .airTicket_parent_div h1 {
     margin-left: 600px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .airTicket_text_img_grid_div {
+    grid-template-columns: 1fr;
   }
 }
 @media screen and (max-width: 1250px) {

@@ -1,6 +1,7 @@
 import React from "react";
 import "./HajjUmrah.css";
 import hajjUmrahBanner from "../../accets/hajjUmrah/hajjUmrahBanner.jpg";
+import hajjUmrahHeroBanner from "../../accets/hajjUmrah/hajjUmrahHeroBanner.png";
 
 const HajjUmrah = () => {
   return (
