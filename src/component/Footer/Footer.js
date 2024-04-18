@@ -9,18 +9,19 @@ import {
 import musafirAirTravelLogo from "../../accets/MusafirAirTravelsLogo.png";
 import { Link } from "react-router-dom";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import musafirAirTravelLogoTwo from "../../accets/musafirAirTravelLogoTwo.png";
 
 const Footer = () => {
   return (
     <div className="footer_paren_div">
       <div className="footer_parent_grid_div">
         <div>
-          <h2 className="musafir_title">Musafir Air Travels</h2>
-          {/* <img
-            className="musafirAirTravelLogo"
-            src={musafirAirTravelLogo}
+          {/* <h2 className="musafir_title">Musafir Air Travels</h2> */}
+          <img
+            className="musafirAirTravelLogoTwo"
+            src={musafirAirTravelLogoTwo}
             alt=""
-          /> */}
+          />
           {/* <p className="footer_lorem">Address</p> */}
           <div className="footer_icon_flex_div">
             <FontAwesomeIcon icon={faEnvelope} />
