@@ -10,6 +10,7 @@ import {
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import MusafirAirTravelsLogo from "../../accets/MusafirAirTravelsLogo.png";
+import musafirAirTravelLogoTwo from "../../accets/musafirAirTravelLogoTwo.png";
 
 const Navigation = () => {
   let [state, setState] = useState({ clicked: false });
@@ -66,12 +67,13 @@ const Navigation = () => {
       <div className="nav_menu_main_parent_div">
         <div className="nav_menu_parent_div">
           <div>
-            <h1 className="musafir_title">Musafir Air Travels</h1>
-            {/* <img
-              className="MusafirAirTravelsLogo"
-              src={MusafirAirTravelsLogo}
+            {/* <h1 className="musafir_title">Musafir Air Travels</h1> */}
+
+            <img
+              className="MusafirAirTravelsLogoTwo"
+              src={musafirAirTravelLogoTwo}
               alt=""
-            /> */}
+            />
           </div>
           <div onClick={handleClick} className="menu_icons">
             {state.clicked ? (
@@ -113,11 +115,6 @@ const Navigation = () => {
               </Link>
             </li> */}
           </ul>
-          {/* <div className="shipping_and_bars_icon_div">
-            <FontAwesomeIcon className="shopping_icon" icon={faCartShopping} />
-
-            <FontAwesomeIcon className="bars_icon" icon={faBars} />
-          </div> */}
         </div>
       </div>
     </div>

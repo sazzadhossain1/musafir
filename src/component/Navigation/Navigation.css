@@ -69,14 +69,14 @@ small:hover {
   z-index: 1; */
 }
 
-.MusafirAirTravelsLogo {
-  width: 4%;
+.MusafirAirTravelsLogoTwo {
+  width: 60%;
 }
 .nav_menu_parent_div {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 90%;
+  width: 80%;
   margin: auto;
   /* background-color: red; */
   padding: 0px 10px;
@@ -97,13 +97,14 @@ small:hover {
 .unOrderLink {
   display: flex;
   align-items: center;
-  gap: 70px;
+  gap: 30px;
   margin-right: -50px;
 }
 
 .unOrderLink li {
   font-size: 14px;
   font-weight: 700;
+  width: 100px;
 }
 .login {
   display: none;
@@ -128,59 +129,83 @@ small:hover {
 .bars_icon:hover {
   color: #3fd0d4;
 }
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1536px) {
   .unOrderLink {
-    gap: 40px;
+    gap: 0px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .nav_menu_parent_div {
+    width: 90%;
+  }
+  .MusafirAirTravelsLogoTwo {
+    width: 80%;
+  }
+  .unOrderLink {
+    gap: 0px;
   }
 }
 @media screen and (max-width: 1150px) {
   .nav_menu_parent_div {
+    /* width: 90%; */
+  }
+  /* .musafir_title {
+    font-size: 25px;
+  } */
+  .MusafirAirTravelsLogoTwo {
     width: 90%;
   }
-  .musafir_title {
-    font-size: 25px;
-  }
   .unOrderLink {
-    gap: 25px;
+    gap: 0px;
   }
+
   .nav_menu_main_parent_div {
     padding: 15px 0px;
   }
 }
 @media screen and (max-width: 1000px) {
   .nav_menu_parent_div {
-    width: 90%;
+    gap: 100px;
   }
-  .musafir_title {
-    font-size: 22px;
+  .unOrderLink li {
+    font-size: 12px;
+    font-weight: 700;
+    width: 85px;
+  }
+  .MusafirAirTravelsLogoTwo {
+    width: 100%;
   }
   .unOrderLink {
-    gap: 15px;
-  }
-  .nav_menu_main_parent_div {
-    padding: 15px 0px;
+    gap: 0px;
   }
 }
 @media screen and (max-width: 950px) {
-  .nav_menu_main_parent_div {
-  }
   .nav_menu_parent_div {
-    width: 80%;
+    gap: 20px;
+  }
+  .MusafirAirTravelsLogoTwo {
+    width: 100%;
   }
 }
 @media screen and (max-width: 871px) {
+  .nav_menu_parent_div {
+    gap: 20px;
+  }
+  .MusafirAirTravelsLogoTwo {
+    width: 100%;
+  }
   .navigation_second_parent_div {
     width: 100%;
   }
   .nav_menu_parent_div {
-    width: 90%;
-    padding: 10px;
+    /* width: 90%;
+    padding: 10px; */
   }
   .musafir_title {
     font-size: 22px;
   }
   .unOrderLink {
-    gap: 15px;
+    gap: 0px;
   }
   .unOrderLink li {
     font-size: 11px;
@@ -196,7 +221,9 @@ small:hover {
   .nav_menu_main_parent_div {
     z-index: 99;
   }
-
+  .MusafirAirTravelsLogoTwo {
+    width: 50%;
+  }
   .unOrderLink {
     display: flex;
     flex-direction: column;
@@ -205,7 +232,7 @@ small:hover {
     width: 50%;
     height: 100%;
     position: absolute;
-    top: 83px;
+    top: 103px;
     left: -60%;
     align-items: stretch;
     padding: 15px 25px;
@@ -236,23 +263,275 @@ small:hover {
   }
 }
 
+@media screen and (max-width: 836px) {
+  .unOrderLink {
+    top: 101px;
+  }
+}
+@media screen and (max-width: 814px) {
+  .unOrderLink {
+    top: 100px;
+  }
+}
+@media screen and (max-width: 803px) {
+  .unOrderLink {
+    top: 98px;
+  }
+}
 @media screen and (max-width: 800px) {
   .unOrderLink {
-    top: 83px;
+    top: 99px;
+  }
+}
+@media screen and (max-width: 792px) {
+  .unOrderLink {
+    top: 98px;
+  }
+}
+@media screen and (max-width: 781px) {
+  .unOrderLink {
+    top: 97px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .unOrderLink {
+    top: 96px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .unOrderLink {
+    top: 95px;
+  }
+}
+@media screen and (max-width: 749px) {
+  .unOrderLink {
+    top: 94px;
   }
 }
 @media screen and (max-width: 747px) {
   .unOrderLink {
-    top: 83px;
+    top: 93px;
+  }
+}
+@media screen and (max-width: 727px) {
+  .unOrderLink {
+    top: 91px;
   }
 }
 @media screen and (max-width: 709px) {
   .unOrderLink {
+    top: 114px;
+  }
+  .MusafirAirTravelsLogoTwo {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 699px) {
+  .unOrderLink {
+    top: 112px;
+  }
+}
+@media screen and (max-width: 683px) {
+  .unOrderLink {
+    top: 110px;
+  }
+}
+@media screen and (max-width: 668px) {
+  .unOrderLink {
+    top: 109px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .unOrderLink {
+    top: 108px;
+  }
+}
+@media screen and (max-width: 652px) {
+  .unOrderLink {
+    top: 106px;
+  }
+}
+
+@media screen and (max-width: 637px) {
+  .unOrderLink {
+    top: 105px;
+  }
+}
+@media screen and (max-width: 629px) {
+  .unOrderLink {
+    top: 104px;
+  }
+}
+
+@media screen and (max-width: 621px) {
+  .unOrderLink {
+    top: 103px;
+  }
+}
+
+@media screen and (max-width: 613px) {
+  .unOrderLink {
+    top: 102px;
+  }
+}
+@media screen and (max-width: 606px) {
+  .unOrderLink {
+    top: 101px;
+  }
+}
+@media screen and (max-width: 598px) {
+  .unOrderLink {
+    top: 99px;
+  }
+}
+@media screen and (max-width: 582px) {
+  .unOrderLink {
+    top: 98px;
+  }
+}
+@media screen and (max-width: 574px) {
+  .unOrderLink {
+    top: 96px;
+  }
+}
+@media screen and (max-width: 559px) {
+  .unOrderLink {
+    top: 95px;
+  }
+}
+@media screen and (max-width: 551px) {
+  .unOrderLink {
+    top: 94px;
+  }
+}
+@media screen and (max-width: 543px) {
+  .unOrderLink {
+    top: 93px;
+  }
+}
+@media screen and (max-width: 536px) {
+  .unOrderLink {
+    top: 92px;
+  }
+}
+@media screen and (max-width: 528px) {
+  .unOrderLink {
+    top: 91px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .unOrderLink {
+    top: 90px;
+  }
+}
+@media screen and (max-width: 512px) {
+  .unOrderLink {
+    top: 89px;
+  }
+}
+@media screen and (max-width: 504px) {
+  .unOrderLink {
+    top: 88px;
+  }
+}
+@media screen and (max-width: 497px) {
+  .unOrderLink {
+    top: 87px;
+  }
+}
+@media screen and (max-width: 489px) {
+  .unOrderLink {
+    top: 86px;
+  }
+}
+@media screen and (max-width: 481px) {
+  .unOrderLink {
+    top: 85px;
+  }
+}
+@media screen and (max-width: 473px) {
+  .unOrderLink {
+    top: 84px;
+  }
+}
+@media screen and (max-width: 466px) {
+  .unOrderLink {
     top: 83px;
   }
 }
-@media screen and (max-width: 240px) {
+@media screen and (max-width: 458px) {
   .unOrderLink {
-    top: 116px;
+    top: 82px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .unOrderLink {
+    top: 80px;
+  }
+}
+@media screen and (max-width: 434px) {
+  .unOrderLink {
+    top: 78px;
+  }
+}
+@media screen and (max-width: 419px) {
+  .unOrderLink {
+    top: 76px;
+  }
+}
+@media screen and (max-width: 403px) {
+  .unOrderLink {
+    top: 74px;
+  }
+}
+@media screen and (max-width: 388px) {
+  .unOrderLink {
+    top: 72px;
+  }
+}
+@media screen and (max-width: 372px) {
+  .unOrderLink {
+    top: 70px;
+  }
+}
+@media screen and (max-width: 357px) {
+  .unOrderLink {
+    top: 68px;
+  }
+}
+@media screen and (max-width: 341px) {
+  .unOrderLink {
+    top: 66px;
+  }
+}
+@media screen and (max-width: 326px) {
+  .unOrderLink {
+    top: 64px;
+  }
+}
+@media screen and (max-width: 310px) {
+  .unOrderLink {
+    top: 62px;
+  }
+}
+@media screen and (max-width: 295px) {
+  .unOrderLink {
+    top: 60px;
+  }
+}
+@media screen and (max-width: 279px) {
+  .unOrderLink {
+    top: 58px;
+  }
+}
+@media screen and (max-width: 265px) {
+  .unOrderLink {
+    top: 56px;
+  }
+}
+@media screen and (max-width: 255px) {
+  .unOrderLink {
+    top: 54px;
   }
 }
