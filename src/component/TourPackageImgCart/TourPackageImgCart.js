@@ -1,8 +1,5 @@
 import React from "react";
 import "./TourPackageImgCart.css";
-import tourPackageImgOne from "../../accets/tourPackageImg/tourPackageImgOne.jpg";
-import tourPackageImgTwo from "../../accets/tourPackageImg/tourPackageImgTwo.jpg";
-import tourPackageImgThree from "../../accets/tourPackageImg/tourPackageImgThree.jpg";
 
 const TourPackageImgCart = () => {
   return (

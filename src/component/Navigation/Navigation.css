@@ -68,6 +68,10 @@ small:hover {
   top: 0;
   z-index: 1; */
 }
+
+.MusafirAirTravelsLogo {
+  width: 4%;
+}
 .nav_menu_parent_div {
   display: flex;
   align-items: center;

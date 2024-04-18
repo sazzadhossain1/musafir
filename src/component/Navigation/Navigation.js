@@ -9,6 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import MusafirAirTravelsLogo from "../../accets/MusafirAirTravelsLogo.png";
 
 const Navigation = () => {
   let [state, setState] = useState({ clicked: false });
@@ -64,7 +65,14 @@ const Navigation = () => {
 
       <div className="nav_menu_main_parent_div">
         <div className="nav_menu_parent_div">
-          <h1 className="musafir_title">Musafir Air Travels</h1>
+          <div>
+            <h1 className="musafir_title">Musafir Air Travels</h1>
+            {/* <img
+              className="MusafirAirTravelsLogo"
+              src={MusafirAirTravelsLogo}
+              alt=""
+            /> */}
+          </div>
           <div onClick={handleClick} className="menu_icons">
             {state.clicked ? (
               <FontAwesomeIcon className="fa_bars" icon={faTimes} />

@@ -7,8 +7,7 @@ const TouristPlaces = () => {
   return (
     <div className="touristPlaces_parent_div">
       <h1 className="country_text">
-        Welcome to Musafir Air Travels – Your Premier Travel Companion in Dhaka,
-        Bangladesh!
+        Welcome to Musafir Air Travels – Your Premier Travel Companion
       </h1>
       <p className="tourist_text_p">
         Embark on a journey of discovery, adventure, and spiritual fulfillment

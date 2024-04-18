@@ -1,11 +1,6 @@
 import React from "react";
 import "./TourPackages.css";
 
-import tourPackageCartPhotoOne from "../../accets/touristPlacePhoto/tourPackageCartPhoto/tourPackageCartPhotoOne.jpg";
-import tourPackageCartPhotoTwo from "../../accets/touristPlacePhoto/tourPackageCartPhoto/tourPackageCartPhotoTwo.jpg";
-import tourPackageCartPhotoThree from "../../accets/touristPlacePhoto/tourPackageCartPhoto/tourPackageCartPhotoThree.jpg";
-import hotelsBannerPhoto from "../../accets/hotelsPhotos/hotelsBannerPhoto.jpg";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBagShopping,

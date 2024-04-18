@@ -21,7 +21,7 @@ const Footer = () => {
             src={musafirAirTravelLogo}
             alt=""
           /> */}
-          <p className="footer_lorem">Address</p>
+          {/* <p className="footer_lorem">Address</p> */}
           <div className="footer_icon_flex_div">
             <FontAwesomeIcon icon={faEnvelope} />
             <span>musafirairtravels1@gmail.com</span>
