@@ -1,6 +1,7 @@
 import React from "react";
 import "./CarRental.css";
-import carRentalBannerPhoto from "../../accets/carRental/carRentalBanner/carRentalBanner.jpg";
+
+import visaCartPhoto from "../../accets/visaService/visaCartPhoto.jpg";
 
 const CarRental = () => {
   return (
@@ -42,11 +43,7 @@ const CarRental = () => {
             </p>
           </div>
           <div>
-            <img
-              className="hotelsBannerPhoto"
-              src={carRentalBannerPhoto}
-              alt=""
-            />
+            <img className="hotelsBannerPhoto" src={visaCartPhoto} alt="" />
           </div>
         </div>
         <div className="at_musafir_text-div">
