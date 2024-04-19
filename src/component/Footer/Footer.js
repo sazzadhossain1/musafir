@@ -13,7 +13,7 @@ import musafirAirTravelLogoTwo from "../../accets/musafirAirTravelLogoTwo.png";
 
 const Footer = () => {
   return (
-    <div className="footer_paren_div">
+    <div className="footer_paren_div" id="footer">
       <div className="footer_parent_grid_div">
         <div>
           {/* <h2 className="musafir_title">Musafir Air Travels</h2> */}

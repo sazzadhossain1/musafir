@@ -18,6 +18,13 @@ const Navigation = () => {
   const handleClick = () => {
     setState({ clicked: !state.clicked });
   };
+
+  const scrollToFooter = () => {
+    const footerElement = document.getElementById("footer");
+    if (footerElement) {
+      footerElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div className="navigation_main_parent_div">
       {/* Navigaton Login Part Site */}
@@ -102,7 +109,9 @@ const Navigation = () => {
               <Link to="/hajjUmrah">Hajj/Umrah</Link>
             </li>
             <li>
-              <Link to="">Contact</Link>
+              <Link to="#" onClick={scrollToFooter}>
+                Contact
+              </Link>
             </li>
             {/* <li>
               <Link className="login" to="/login">
