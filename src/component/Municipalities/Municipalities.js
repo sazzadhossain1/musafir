@@ -6,6 +6,13 @@ import MunicipalitiesPhotoThree from "../../accets/municipalities/Municipalities
 import MunicipalitiesPhotoFour from "../../accets/municipalities/MunicipalitiesPhotoFour.jpg";
 import MunicipalitiesPhotoFive from "../../accets/municipalities/MunicipalitiesPhotoFive.jpg";
 
+import homeGalleryOne from "../../accets/homeGallery/homeGalleryOne.png";
+import homeGalleryTwo from "../../accets/homeGallery/homeGalleryTwo.png";
+import homeGalleryThree from "../../accets/homeGallery/homeGalleryThree.png";
+import homeGalleryFour from "../../accets/homeGallery/homeGalleryFour.png";
+import homeGalleryFive from "../../accets/homeGallery/homeGalleryFive.png";
+import homeGallerySix from "../../accets/homeGallery/homeGallerySix.png";
+
 const Municipalities = () => {
   return (
     <div className="Municipalities_parent_div">
@@ -16,21 +23,24 @@ const Municipalities = () => {
         imperdiet. Etiam ultricies nisi vel augue.
       </p>
       <div className="Municipalities_photo_flex_div">
-        <img
+        {/* <img
           className="MunicipalitiesPhotoOne"
           src={MunicipalitiesPhotoOne}
           alt=""
-        />
-        <img
+        /> */}
+        {/* <img
           className="MunicipalitiesPhotoTwo"
           src={MunicipalitiesPhotoTwo}
           alt=""
-        />
+        /> */}
       </div>
       <div className="municipalitiesPhoto_grid_div">
-        <img src={MunicipalitiesPhotoThree} alt="" />
-        <img src={MunicipalitiesPhotoFour} alt="" />
-        <img src={MunicipalitiesPhotoFive} alt="" />
+        <img src={homeGalleryOne} alt="" />
+        <img src={homeGalleryTwo} alt="" />
+        <img src={homeGalleryThree} alt="" />
+        <img src={homeGalleryFour} alt="" />
+        <img src={homeGalleryFive} alt="" />
+        <img src={homeGallerySix} alt="" />
       </div>
     </div>
   );
