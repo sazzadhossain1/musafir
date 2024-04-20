@@ -58,9 +58,6 @@
   }
 }
 @media screen and (max-width: 1250px) {
-  .Municipalities_photo_flex_div {
-    width: 90%;
-  }
   .municipalitiesPhoto_grid_div {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -69,31 +66,24 @@
 
     width: 102%;
   }
-  .MunicipalitiesPhotoOne {
-    width: 75%;
-  }
+}
+@media screen and (max-width: 1200px) {
+  .municipalitiesPhoto_grid_div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 20px;
 
-  .MunicipalitiesPhotoTwo {
-    width: 35%;
+    width: 102%;
   }
 }
-@media screen and (max-width: 1250px) {
-  .Municipalities_photo_flex_div {
-    width: 102%;
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+@media screen and (max-width: 950px) {
   .municipalitiesPhoto_grid_div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-  }
+    gap: 20px;
+    margin-top: 20px;
 
-  .MunicipalitiesPhotoOne {
-    width: 100%;
-    height: auto;
-  }
-
-  .MunicipalitiesPhotoTwo {
-    width: 100%;
+    width: 102%;
   }
 }
