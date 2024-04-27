@@ -1,10 +1,5 @@
 import React from "react";
 import "./Municipalities.css";
-import MunicipalitiesPhotoOne from "../../accets/municipalities/MunicipalitiesPhotoOne.jpg";
-import MunicipalitiesPhotoTwo from "../../accets/municipalities/MunicipalitiesPhotoTwo.jpg";
-import MunicipalitiesPhotoThree from "../../accets/municipalities/MunicipalitiesPhotoThree.jpg";
-import MunicipalitiesPhotoFour from "../../accets/municipalities/MunicipalitiesPhotoFour.jpg";
-import MunicipalitiesPhotoFive from "../../accets/municipalities/MunicipalitiesPhotoFive.jpg";
 
 import homeGalleryOne from "../../accets/homeGallery/homeGalleryOne.png";
 import homeGalleryTwo from "../../accets/homeGallery/homeGalleryTwo.png";

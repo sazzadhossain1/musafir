@@ -2,10 +2,10 @@
   background: rgba(0, 0, 0, 0.2)
     /* url("../../accets/visaService/visaServiceHero.png"); */
     url("../../accets/heorPhoto.jpg");
+  background-blend-mode: darken;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-blend-mode: darken;
   height: 80vh;
 
   width: 100%;

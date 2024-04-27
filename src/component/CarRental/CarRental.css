@@ -1,11 +1,12 @@
 .carRental_parent_div {
-  background: url("../../accets/visaService/visaServiceHero.png");
-  background-color: rgba(0, 0, 0, 0.404);
+  background: rgba(0, 0, 0, 0.5)
+    url("../../accets/visaService/vidaServiceBanner.png");
+
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-blend-mode: darken;
-  height: 75vh;
+  height: 80vh;
   width: 100%;
   /* background-attachment: fixed; */
 }

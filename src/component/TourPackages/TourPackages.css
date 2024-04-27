@@ -1,7 +1,10 @@
 .tourPackages_main_parent_div {
 }
 .tourPackages_parent_div {
-  background-image: url("../../accets/tourPackage/tourPackageBanner.png");
+  background: rgba(0, 0, 0, 0.5)
+    url("../../accets/tourPackage/tourPackageBanner.png");
+
+  background-blend-mode: darken;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -118,7 +121,7 @@
   .tourPackages_parent_div h1 {
     margin-left: 170px;
     margin-top: 300px;
-    color: black;
+
     font-size: 40px;
     font-weight: 700;
   }

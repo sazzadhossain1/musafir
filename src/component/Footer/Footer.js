@@ -6,7 +6,6 @@ import {
   faLocationDot,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
-import musafirAirTravelLogo from "../../accets/MusafirAirTravelsLogo.png";
 import { Link } from "react-router-dom";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import musafirAirTravelLogoTwo from "../../accets/musafirAirTravelLogoTwo.png";
