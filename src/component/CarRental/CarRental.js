@@ -2,6 +2,7 @@ import React from "react";
 import "./CarRental.css";
 
 import visaCartPhoto from "../../accets/visaService/visaCartPhoto.jpg";
+import visaCartPhotoOne from "../../accets/visaService/visaCartPhotoOne.png";
 
 const CarRental = () => {
   return (
@@ -43,7 +44,7 @@ const CarRental = () => {
             </p>
           </div>
           <div>
-            <img className="hotelsBannerPhoto" src={visaCartPhoto} alt="" />
+            <img className="hotelsBannerPhoto" src={visaCartPhotoOne} alt="" />
           </div>
         </div>
         <div className="at_musafir_text-div">

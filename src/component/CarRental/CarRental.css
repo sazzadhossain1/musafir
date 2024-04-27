@@ -17,6 +17,9 @@
   font-size: 30px;
   font-weight: 600;
 }
+.hotelsBannerPhoto {
+  width: 100%;
+}
 @media screen and (max-width: 1650px) {
   .carRental_parent_div h1 {
     margin-left: 750px;

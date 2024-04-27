@@ -220,6 +220,7 @@ small:hover {
   }
   .nav_menu_main_parent_div {
     z-index: 99;
+    position: fixed;
   }
   .MusafirAirTravelsLogoTwo {
     width: 50%;
@@ -231,7 +232,7 @@ small:hover {
     background-color: black;
     width: 50%;
     height: 100%;
-    position: absolute;
+    position: fixed;
     top: 103px;
     left: -60%;
     align-items: stretch;
